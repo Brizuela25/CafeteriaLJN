@@ -23,7 +23,7 @@ const contenido = {
     </div>
     <div class= "imagenes">
       <img src="nachos2.jpg" alt="Pollo" width="100">
-      <p>Ensalada - L.60.00</p>
+      <p>Pollo Frito - L.60.00</p>
       <button class="botonesc" onclick="agregarAlCarrito('Pollo Frito', 60.00)">Agregar</button>
     </div>
   `,
