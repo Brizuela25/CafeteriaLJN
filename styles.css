@@ -1,0 +1,179 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+.logo img {
+  display: block;
+  margin: 100px auto 10px;
+  width: 150px;
+  height: auto;
+}
+
+.logo1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.logo1 p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* <- Aquí cambiamos a 3 columnas */
+  gap: 15px;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+
+.menu-container button {
+  padding: 15px;
+  border: none;
+  background-color: #ffffff;
+  color: #5b2a86;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-container button:hover {
+  background-color: #5b2a86;
+  color: #fff;
+}
+
+#seccion-contenido {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+.carrito {
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  padding: 25px;
+  max-width: 550px;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.carrito h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  color: #679ef1;
+}
+
+.carrito ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carrito ul li {
+  background-color: #ffffffcc;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+.carrito ul li:hover {
+  transform: scale(1.03);
+  background-color: #f3e5f5;
+}
+
+.carrito button {
+  display: block;
+  margin: 25px auto 0;
+  padding: 12px 25px;
+  background-color: #7b1fa2;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carrito button:hover {
+  background-color: #9c27b0;
+}
+
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #5b2a86;
+  color: white;
+}
+
+footer img {
+  width: 20px;
+  margin: 0 12px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
+
+.imagenes {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagenes img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.botonesc {
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(135deg, #c7a8fd, #c17eff);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(162, 108, 255, 0.4);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.botonesc:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #8b4dff, #a85eff);
+}
+
+
+

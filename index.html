@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Cocina Verde</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="logo1.png" alt="Ljn">
+    <div class="logo1">
+      <h1>Cafeteria LJN</h1>
+      <p>Encargue sus Pedidos</p>
+    </div>
+    
+  </div>
+
+  <div class="menu-container">
+    <button onclick="mostrarSeccion('menu')">Menú</button>
+    <button onclick="mostrarSeccion('temporada')">Platos de Temporada</button>
+    <button onclick="mostrarSeccion('refrescos')">Refrescos</button>
+    <button onclick="mostrarSeccion('batidos')">Batidos</button>
+    <button onclick="mostrarSeccion('promociones')">Promociones</button>
+
+
+  </div>
+
+  <div id="seccion-contenido"></div>
+
+  <div class="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul id="lista-carrito"></ul>
+    <p id="total-pedido">Total: L.0.00</p>
+    <button onclick="enviarPedido()">Enviar pedido</button>
+  </div>
+  
+
+  <footer>
+   <p>@Derechos de Autor 2025</p>
+   <p>Hecho Por Jesel Brizuela</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
